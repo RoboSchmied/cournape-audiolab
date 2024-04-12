@@ -4508,7 +4508,7 @@ static PyObject *__pyx_pf_7scikits_8audiolab_9pysndfile_8_sndfile_7Sndfile_sync(
  *         No effect if file is open as read"""
  *         sf_write_sync(self.hdl)             # <<<<<<<<<<<<<<
  * 
- *     # Functions to get informations about the file
+ *     # Functions to get information about the file
  */
   sf_write_sync(((struct __pyx_obj_7scikits_8audiolab_9pysndfile_8_sndfile_Sndfile *)__pyx_v_self)->hdl);
 

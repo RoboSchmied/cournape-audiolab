@@ -39,7 +39,7 @@ def info_factory(name, libnames, headers, frameworks=None,
             return system_info.library_extensions(self)
 
         def calc_info(self):
-            """ Compute the informations of the library """
+            """ Compute the information of the library """
             if libnames:
                 libs = self.get_libs('libraries', '')
                 if not libs:

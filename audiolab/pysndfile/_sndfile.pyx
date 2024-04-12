@@ -516,7 +516,7 @@ broken)"""
         No effect if file is open as read"""
         sf_write_sync(self.hdl)
 
-    # Functions to get informations about the file
+    # Functions to get information about the file
     #def get_nframes(self):
     #    warnings.warn("Deprecated; please use the nframes attribute instead.",
     #                  DeprecationWarning)

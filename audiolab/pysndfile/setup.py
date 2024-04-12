@@ -13,7 +13,7 @@ def configuration(parent_package='',top_path=None):
     if os.path.exists('pysndfile.py'):
         os.remove('pysndfile.py')
 
-    # Check that sndfile can be found and get necessary informations
+    # Check that sndfile can be found and get necessary information
     sf_info = info_factory('sndfile', ['sndfile'], ['sndfile.h'],
                            classname='SndfileInfo')()
     try:

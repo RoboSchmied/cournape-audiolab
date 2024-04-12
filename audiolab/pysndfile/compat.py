@@ -150,7 +150,7 @@ class sndfile:
             raise PyaudioIOError(str(e))
         return st
 
-    # Functions to get informations about the file
+    # Functions to get information about the file
     def get_nframes(self):
         """ Return the number of frames of the file"""
         return self._sndfile.nframes
